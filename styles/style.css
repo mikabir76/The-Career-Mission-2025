@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Global Selector starts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #E6E6FA, #B8E7FA);
+    color: #0D1321;
+}
+
+.bg-white {
+    background: #E6EDF9;
+    border-bottom: 2px solid #C6DBFF;
+}
+
+.primary-bg {
+    background: #E6EDF9;
+}
+
+.container {
+    max-width: 88%;
+    margin: 0 auto;
+}
+
+.primary-btn {
+    font-size: 18px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #FFA500, #FFD447);
+    border: none;
+    padding: 15px 20px;
+    font-weight: medium;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+.primary-btn:hover {
+    background: linear-gradient(to left, #FFA500, #FFD447);
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+
+.sub-heading {
+    font-size: 16px;
+    /* font-weight: 400; */
+    opacity: 0.6;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0D1321;
+}
+
+/* Global Selector Ended up */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.logo-area h2 {
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.logo-area h2 span {
+    color: #FFA500;
+}
+
+.banner-container {
+    margin: 80px auto;
+}
+
+.banner img,
+.banner h1,
+.banner p {
+    margin-bottom: 20px;
+}
+
+.banner {
+    background: #E6EDF9;
+    border-radius: 16px;
+    padding: 40px 60px;
+    text-align: center;
+}
+
+.banner img {
+    width: 240px;
+    height: 240px;
+}
+
+.banner h1 {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.banner p {
+    padding: 0 150px;
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+.heading-area {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.goal {
+    border-radius: 16px;
+    padding: 40px 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.goal-text h4,
+.goal-text p {
+    margin-bottom: 20px;
+}
+
+.goal-text {
+    width: 60%;
+}
+
+.goal-text h4 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.goal p {
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+.goal-banner {
+    width: 40%;
+}
+
+
+.video-area {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    margin-bottom: 80px;
+}
+
+.border-video {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 15px;
+
+}
+
+.border-video iframe {
+    width: 100%;
+    height: 550px;
+    border: none;
+    border-radius: 20px;
+    /* Match outer radius */
+    display: block;
+}
+
+.skill-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.single-skill-card img,
+.single-skill-card h2 {
+    margin-bottom: 20px;
+}
+
+.single-skill-card {
+    background: linear-gradient(to bottom, #E6EDF9, #9DE5FF);
+    padding: 40px;
+    width: 364px;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.368);
+    border-radius: 16px;
+}
+
+.single-skill-card img {
+    width: 70px;
+}
+
+.footer-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 100px;
+}
+
+.footer-text h4 {
+    letter-spacing: 2px;
+}
+
+.footer-media img {
+    width: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+}
